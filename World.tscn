@@ -653,7 +653,7 @@ position = Vector2( 176, 136 )
 position = Vector2( 96, 88 )
 
 [node name="Bat" parent="." instance=ExtResource( 7 )]
-position = Vector2( 192, 88 )
+position = Vector2( 224, 88 )
 
 [node name="Bat2" parent="." instance=ExtResource( 7 )]
 position = Vector2( 32, 80 )
