@@ -20,7 +20,7 @@ var state = CHASE
 onready var sprite = $AnimatedSprite
 onready var stats = $Stats
 onready var playerDetectionZone = $PlayerDetectionZone
-onready var hurtbox = $Hurtbox
+onready var hurtbox = $HurtBox
 
 func _physics_process(delta):
 	knockback = knockback.move_toward(Vector2.ZERO, 200 * delta)
