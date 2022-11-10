@@ -57,7 +57,6 @@ func _physics_process(delta):
 
 	if softCollision.is_colliding():
 		velocity += softCollision.get_push_vector() * delta * 400
-		
 	velocity = move_and_slide(velocity)
 	
 func accelerate_towards_point(point, delta):
